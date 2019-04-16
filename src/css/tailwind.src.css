@@ -19,6 +19,24 @@
     @apply text-white text-3xl;
 }
 
+.h1-link {
+    @apply text-white no-underline;
+}
+
+.h1-link:hover {
+    @apply text-grey;
+}
+
+.li-navlink {
+    @apply text-white no-underline;
+}
+
+.li-navlink:hover {
+    @apply text-grey;
+}
+
+
+
 .footer-wrapper {
     @apply border-t px-8 py-4;
 }
