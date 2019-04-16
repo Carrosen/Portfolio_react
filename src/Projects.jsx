@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import axios from "axios"
 import ProjectCard from "./ProjectCard"
-import { UndrawDesigner } from 'react-undraw-illustrations'
+import { UndrawResume } from 'react-undraw-illustrations'
 
 class Projects extends Component {
     constructor() {
@@ -39,7 +39,7 @@ class Projects extends Component {
             <div className="content-wrapper">
                 <div classname="flex mb-4">
                     <div className="w-1/4">
-                        <UndrawDesigner />
+                        <UndrawResume primaryColor='#B2B2A2' height='200px' />
                     </div>
                     <div className="w-3/4">
                         <h1>My Projects</h1>
