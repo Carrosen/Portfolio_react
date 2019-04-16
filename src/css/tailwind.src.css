@@ -12,7 +12,7 @@
 }
 
 .header {
-    @apply flex items-center justify-between flex-wrap bg-blue-darkest p-6;
+    @apply flex items-center justify-between flex-wrap p-6;
 }
 
 .header-title {
@@ -52,3 +52,4 @@
 .content-text {
     @apply text-grey-dark;
 }
+
