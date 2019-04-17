@@ -9,12 +9,14 @@ import Projects from "./Projects"
 import About from "./About"
 import { Switch, Route } from 'react-router-dom'
 import Contact from "./Contact"
+import Portheader from "./Portheader"
 
 const App = () => {
     return (
     <div className="page-wrapper">
         <div className="page-content">
             <Header />
+            <Portheader />
             <div id="main-section" className="content-wrapper"> 
                 <Switch>
                     <Route exact path='/' component={Hello}></Route>

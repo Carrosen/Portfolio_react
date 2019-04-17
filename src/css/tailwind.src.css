@@ -16,15 +16,21 @@
 }
 
 .header-title {
-    @apply text-sand-surge text-3xl;
+    @apply text-sand-surge text-3xl text-center items-center;
 }
 
+.portheader {
+    @apply bg-white flex text-center justify-around px-4 py-2 m-2;
+}
+
+
+
 .h1-link {
-    @apply text-sand-surge no-underline;
+    @apply text-sand-surge no-underline text-center;
 }
 
 .h1-link:hover {
-    @apply text-grey;
+    @apply text-grey items-center text-center;
 }
 
 .li-navlink {
@@ -52,4 +58,3 @@
 .content-text {
     @apply text-grey-dark;
 }
-
