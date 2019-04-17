@@ -142,6 +142,7 @@ let colors = {
   'grey-white': '#eaebe5',
   'light-pink': '#d8cbcb',
   'dusty-pink': '#dcd4d4',
+  'light-beige': '#e4dcd4'
 
   
 }

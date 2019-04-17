@@ -17,7 +17,7 @@ const App = () => {
         <div className="page-content">
             <Portheader />
             <Header />
-            <div id="main-section" className="content-wrapper bg-dusty-pink"> 
+            <div id="main-section" className="content-wrapper bg-light-beige"> 
                 <Switch>
                     <Route exact path='/' component={Hello}></Route>
                     <Route exact path='/about' component={About}></Route>
