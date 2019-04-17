@@ -3,7 +3,7 @@ import React from "react"
 const Contact = () => {
     return (
             <div className="content-wrapper">
-                <div className="flex flex-wrap mb-4">
+                <div className="flex md:items-center flex-wrap mb-4">
                     <div className="w-full lg:w-3/4 md:w-1/2">
                         <h1 className="content-text">Contact Me</h1>
 
@@ -16,7 +16,7 @@ const Contact = () => {
 
                                         <p>
                                             <label class="block text-grey font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">
-                                            Email: <input type="text" name="email" />
+                                            Email:
                                             </label>
                                         </p>
                                     </div>
@@ -28,7 +28,7 @@ const Contact = () => {
                                             <div class="md:w-1/3">
                                         <p>
                                             <label class="block text-grey font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-username">
-                                            Message: <textarea name="message"></textarea>
+                                            Message:
                                             </label>
                                             </p>
                                         </div>

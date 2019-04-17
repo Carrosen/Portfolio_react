@@ -137,6 +137,12 @@ let colors = {
   'marine-green': '#6d7973',
   'black-sand': '#3f3931',
 
+  'green-grey': '#ced9d3',
+  'almost-white': '#f6f7f5',
+  'grey-white': '#eaebe5',
+  'light-pink': '#d8cbcb',
+  'dusty-pink': '#dcd4d4',
+
   
 }
 

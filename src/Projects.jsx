@@ -37,13 +37,9 @@ class Projects extends Component {
 
         return (
             <div className="content-wrapper">
-                <div classname="flex mb-4">
-                    <div className="w-1/4">
-                        <UndrawResume primaryColor='#B2B2A2' height='200px' />
-                    </div>
+                <div className="flex mb-4">
                     <div className="w-3/4">
-                        <h1>My Projects</h1>
-                        <p>This is a selection of some of my projects I have been working on.</p>
+                        <h1>This is a selection of my projects</h1>
                     </div>
 
                 </div>
