@@ -10,6 +10,7 @@ const Header = () => {
             <ul className="list-reset flex">
                 <li className="mr-6"><NavLink className="li-navlink hover" activeStyle={{fontWeight: "bold"}} to='/about'>About Me</NavLink></li>
                 <li className="mr-6"><NavLink className="li-navlink hover" activeStyle={{fontWeight: "bold"}} to='/projects'>My Projects</NavLink></li>
+                <li className="mr-6"><NavLink className="li-navlink hover" activeStyle={{fontWeight: "bold"}} to='/contact'>Contact Me</NavLink></li>
             </ul>
         </nav>
     )

@@ -131,8 +131,8 @@ let colors = {
 
   'carlas-pink': '#ffc0cb',
   // carlas colors:
-  'pink-horizon': 'e7baao',
-  'sand-surge': 'e5dace',
+  'pink-horizon': '#e7baao',
+  'sand-surge': '#e5dace',
   'moss-tide': '#b2b2a2',
   'marine-green': '#6d7973',
   'black-sand': '#3f3931',

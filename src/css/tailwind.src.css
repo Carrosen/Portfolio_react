@@ -16,11 +16,11 @@
 }
 
 .header-title {
-    @apply text-white text-3xl;
+    @apply text-sand-surge text-3xl;
 }
 
 .h1-link {
-    @apply text-white no-underline;
+    @apply text-sand-surge no-underline;
 }
 
 .h1-link:hover {
@@ -28,7 +28,7 @@
 }
 
 .li-navlink {
-    @apply text-white no-underline;
+    @apply text-sand-surge no-underline;
 }
 
 .li-navlink:hover {
