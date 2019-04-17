@@ -12,7 +12,7 @@
 }
 
 .header {
-    @apply flex items-center justify-between flex-wrap p-6;
+    @apply flex items-center justify-between bg-marine-green flex-wrap p-6;
 }
 
 .header-title {
