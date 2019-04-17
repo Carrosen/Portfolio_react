@@ -41,9 +41,9 @@ const Contact = () => {
                                         <div class="md:w-1/3"></div>
                                             <div class="md:w-2/3">
                                         <p>
-                                            <button class="shadow bg-purple hover:bg-purple-light focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button" />
+                                            <button class="shadow bg-purple hover:bg-purple-light focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button" type="submit">Send</button>
     
-                                            <button type="submit">Send</button>
+                                        
                                         </p>
                                         </div>
                                 </div>
