@@ -15,8 +15,8 @@ const App = () => {
     return (
     <div className="page-wrapper">
         <div className="page-content">
-            <Header />
             <Portheader />
+            <Header />
             <div id="main-section" className="content-wrapper bg-dusty-pink"> 
                 <Switch>
                     <Route exact path='/' component={Hello}></Route>
