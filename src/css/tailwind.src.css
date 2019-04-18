@@ -12,19 +12,25 @@
 }
 
 .header {
-    @apply flex items-center justify-between bg-marine-green flex-wrap p-6;
+    @apply flex items-center justify-between flex-wrap p-10 text-center;
 }
 
 .header-title {
-    @apply text-sand-surge text-3xl;
+    @apply text-moss-tide text-5xl text-center items-center;
 }
 
+.portheader {
+    @apply bg-white flex text-center justify-around px-4 py-2 bg-marine-green p-6;
+}
+
+
+
 .h1-link {
-    @apply text-sand-surge no-underline;
+    @apply text-moss-tide no-underline text-center;
 }
 
 .h1-link:hover {
-    @apply text-grey;
+    @apply text-grey text-center;
 }
 
 .li-navlink {
@@ -52,4 +58,3 @@
 .content-text {
     @apply text-grey-dark;
 }
-

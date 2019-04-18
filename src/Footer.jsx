@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="footer-wrapper">
             <div className="footer-content">
                 Made with React
-                <button onClick={scrollToTop}>Scroll To Top</button>
+                <button className="footer-content" onClick={scrollToTop}>| Scroll To Top</button>
             </div>
         </div>
     )

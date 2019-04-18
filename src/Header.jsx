@@ -1,18 +1,16 @@
 import React from "react"
-import { NavLink, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <nav className="header">
-            <h1 className="header-title">
-                <Link className="h1-link hover" to='/'>My Portfolio</Link> 
-            </h1>
-            <ul className="list-reset flex">
-                <li className="mr-6"><NavLink className="li-navlink hover" activeStyle={{fontWeight: "bold"}} to='/about'>About Me</NavLink></li>
-                <li className="mr-6"><NavLink className="li-navlink hover" activeStyle={{fontWeight: "bold"}} to='/projects'>My Projects</NavLink></li>
-                <li className="mr-6"><NavLink className="li-navlink hover" activeStyle={{fontWeight: "bold"}} to='/contact'>Contact Me</NavLink></li>
-            </ul>
-        </nav>
+
+        <div className="flex flex-wrap justify-center">
+            <nav className="header">
+                <h1 className="header-title">
+                    <Link className="h1-link hover" to='/'>CARLA ROSÉN</Link> 
+                </h1>
+            </nav>
+        </div>
     )
 }
 
