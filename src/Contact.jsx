@@ -8,6 +8,7 @@ const Contact = () => {
                         <h1 className="content-text">Contact Me</h1><br></br>
 
                             <form class="w-full max-w-xs" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                            <input type="hidden" name="form-name" value="contact" />
                                 <div class="md:flex md:items-center mb-6">
                                     <div class="md:w-1/3">
                                         <p class="hidden">
