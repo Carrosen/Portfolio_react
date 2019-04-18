@@ -2,10 +2,10 @@ import React from "react"
 
 const Contact = () => {
     return (
-            <div className="content-wrapper">
+            <div className="content-wrapper flex flex-wrap justify-center">
                 <div className="flex md:items-center flex-wrap mb-4">
                     <div className="w-full lg:w-3/4 md:w-1/2">
-                        <h1 className="content-text">Contact Me</h1>
+                        <h1 className="content-text">Contact Me</h1><br></br>
 
                             <form class="w-full max-w-xs" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
                                 <div class="md:flex md:items-center mb-6">
