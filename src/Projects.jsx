@@ -38,7 +38,7 @@ class Projects extends Component {
             <div className="content-wrapper">
                 <div className="flex mb-4">
                     <div className="w-3/4">
-                        <h1>This is a selection of my projects</h1>
+                        <h1 className="content-text">This is a selection of my projects</h1>
                     </div>
 
                 </div>

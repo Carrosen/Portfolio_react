@@ -1,26 +1,26 @@
 [
     {
         "id": 1,
-        "name": "My First Website",
-        "image": "/images/beige.jpg",
-        "description": "This was my first project"
+        "name": "Adressbook",
+        "image": "/images/adress1.png",
+        "description": "I like to design..."
     },
     {
         "id": 2,
         "name": "FizzBuzz",
-        "image": "/images/beige.jpg",
+        "image": "/images/numbers.jpeg",
         "description": "Designing user interfaces is fun. I want to learn more about that..."
     },
     {
         "id": 3,
-        "name": "Adressbook",
-        "image": "/images/beige.jpg",
+        "name": "ATM challenge",
+        "image": "/images/cash.jpg",
         "description": "I like to design..."
     },
     {
-        "id": 3,
-        "name": "Adressbook",
+        "id": 4,
+        "name": "My First Website",
         "image": "/images/beige.jpg",
-        "description": "I like to design..."
+        "description": "This was my first project"
     }
 ]

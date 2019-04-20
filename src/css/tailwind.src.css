@@ -26,11 +26,11 @@
 
 
 .h1-link {
-    @apply text-moss-tide no-underline text-center;
+    @apply text-white no-underline font-serif text-center;
 }
 
 .h1-link:hover {
-    @apply text-grey text-center;
+    @apply text-moss-tide text-center;
 }
 
 .li-navlink {
