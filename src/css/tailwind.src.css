@@ -16,7 +16,7 @@
 }
 
 .header-title {
-    @apply text-moss-tide text-5xl text-center items-center;
+    @apply text-grey-lightest text-5xl text-center items-center;
 }
 
 .portheader {
@@ -26,11 +26,11 @@
 
 
 .h1-link {
-    @apply text-white no-underline font-serif text-center;
+    @apply text-moss-tide no-underline font-sans text-center;
 }
 
 .h1-link:hover {
-    @apply text-moss-tide text-center;
+    @apply text-marine-green text-center;
 }
 
 .li-navlink {

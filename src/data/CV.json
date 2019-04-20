@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "CV",
-        "image": "",
+        "image": "/images/cv.png",
         "description": "the whole cv"
     }
 ]
