@@ -8,6 +8,7 @@ const Portheader = () => {
         <li><NavLink className="li-navlink hover" activeStyle={{fontWeight: "bold"}} to='/about'>ABOUT ME</NavLink></li>
         <li><NavLink className="li-navlink hover" activeStyle={{fontWeight: "bold"}} to='/projects'>MY PROJECTS</NavLink></li>
         <li><NavLink className="li-navlink hover" activeStyle={{fontWeight: "bold"}} to='/contact'>CONTACT ME</NavLink></li>
+        <li><NavLink className="li-navlink hover" activeStyle={{fontWeight: "bold"}} to='/CV'>CV</NavLink></li>
     </ul>
     </nav>
     )

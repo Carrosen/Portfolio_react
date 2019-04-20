@@ -10,6 +10,7 @@ import About from "./About"
 import { Switch, Route } from 'react-router-dom'
 import Contact from "./Contact"
 import Portheader from "./Portheader"
+import CV from "./CV"
 
 const App = () => {
     return (
@@ -23,6 +24,7 @@ const App = () => {
                     <Route exact path='/about' component={About}></Route>
                     <Route exact path='/projects' component={Projects}></Route>
                     <Route exact path='/contact' component={Contact}></Route>
+                    <Route exact path='/CV' component={CV}></Route>
                 </Switch>
             </div>
             <Footer />
