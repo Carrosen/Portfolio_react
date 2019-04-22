@@ -26,7 +26,7 @@
 
 
 .h1-link {
-    @apply text-moss-tide no-underline font-sans text-center;
+    @apply text-moss-tide no-underline text-center;
 }
 
 .h1-link:hover {
@@ -38,7 +38,7 @@
 }
 
 .li-navlink:hover {
-    @apply text-grey;
+    @apply text-moss-tide;
 }
 
 
@@ -48,7 +48,7 @@
 }
 
 .footer-content {
-    @apply flex justify-center text-grey;
+    @apply flex justify-center text-moss-tide;
 }
 
 .content-wrapper {
@@ -56,5 +56,5 @@
 }
 
 .content-text {
-    @apply text-grey-dark;
+    @apply text-marine-green;
 }
